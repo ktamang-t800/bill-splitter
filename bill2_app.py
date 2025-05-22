@@ -8,14 +8,16 @@ st.title("Bill Splitter with Friends")
 
 # Country to currency mapping
 COUNTRY_CURRENCY = {
-    "Vietnam": ("VND", "₫"),
-    "United States": ("USD", "$"),
-    "China": ("CNY", "¥"),
-    "United Kingdom": ("GBP", "£"),
-    "European Union": ("EUR", "€"),
-    "Japan": ("JPY", "¥"),
     "Australia": ("AUD", "A$"),
     "Canada": ("CAD", "C$"),
+    "China": ("CNY", "¥"),
+    "European Union": ("EUR", "€"),
+    "India": ("INR", "₹"),
+    "Japan": ("JPY", "¥"),
+    "Nepal": ("NPR", "₨"),
+    "United Kingdom": ("GBP", "£"),
+    "United States": ("USD", "$"),
+    "Vietnam": ("VND", "₫"),
     # Add more countries as needed
 }
 
