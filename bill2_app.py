@@ -22,7 +22,7 @@ COUNTRY_CURRENCY = {
 }
 
 # Step 0: Country search and select
-country_search = st.text_input("Type your country to search", value="Vietnam")
+country_search = st.text_input("Type your country to search", value="")
 
 # Filter matching countries
 filtered_countries = [c for c in COUNTRY_CURRENCY.keys() if country_search.lower() in c.lower()]
